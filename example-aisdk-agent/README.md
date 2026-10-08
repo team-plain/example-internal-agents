@@ -6,8 +6,8 @@ The protocol is documented [here](https://www.plain.com/docs/agents/internal-age
 
 ## Setting it up
 
-1. Create a machine user under [Settings → Machine users](https://app.plain.com/~/settings/machine-users/)
-   and give it an API key. Set its **Type** to **Connected agent**.
+1. Create a machine user for the agent and give it an API key, following
+   [Set up an agent](https://www.plain.com/docs/agents).
 
    Permissions: `threadDiscussion:read`, `threadDiscussion:edit`,
    `threadDiscussionMessage:create`, `threadDiscussionMessage:edit`, `thread:read` and
