@@ -1,4 +1,4 @@
-# Plain custom agent examples
+# Plain agent examples
 
 **These examples now live in one repository each.** Use the repositories below; the directories
 here are kept only so existing links keep working, and they are no longer maintained.
@@ -21,11 +21,11 @@ Both are discussion agents built on Plain's API, with the same five tools:
 - `search_knowledge` searches your knowledge sources in Plain
 - `reply_to_customer` replies to a customer thread, gated behind human approval
 
-To use one, start an "Ask Sidekick" conversation in Plain and pick your custom agent.
+To use one, start an "Ask Sidekick" conversation in Plain and pick your agent.
 
 ## Docs
 
 The protocol is documented under
-[custom internal agents](https://www.plain.com/docs/agents/internal-agent). If you want a support
+[internal agents](https://www.plain.com/docs/agents/internal-agent). If you want a support
 agent that answers customers instead, see
 [support agents](https://www.plain.com/docs/agents/support-agent).

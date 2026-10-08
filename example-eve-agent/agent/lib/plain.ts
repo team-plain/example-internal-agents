@@ -226,7 +226,7 @@ export class Plain {
     this.assertOK("sendDiscussionMessage", result.error ?? null);
   }
 
-  // Plain runs no session for a custom agent, so without these calls the discussion shows as
+  // Plain runs no session for a connected agent, so without these calls the discussion shows as
   // permanently idle. Posting the reply is what marks it unread, not this.
   async setAgentStatus(discussionID: string, status: AgentStatus): Promise<void> {
     const result = await this.timeout(
