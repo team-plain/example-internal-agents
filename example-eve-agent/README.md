@@ -6,8 +6,7 @@ The protocol with the Plain API & webhooks is documented [here](https://www.plai
 
 ## Setting it up
 
-1. Create a machine user for the agent and give it an API key, following
-   [Set up an agent](https://www.plain.com/docs/agents).
+1. [Create an agent machine user](https://www.plain.com/docs/agents) and give it an API key.
 
    Permissions: `threadDiscussion:read`, `threadDiscussion:edit`,
    `threadDiscussionMessage:create`, `threadDiscussionMessage:edit`, `thread:read` and
